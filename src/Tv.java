@@ -17,7 +17,7 @@ class Tv{
 
 class TvTest {
     public static void main(String args[]) {
-        Tv t;
+        Tv t; // Tv t; dhk t = new Tv();를 하나로 합쳐서 Tv t = new tv();로 쓸 수 있다.
         t = new Tv();
         t.channel = 7;
         t.channelDown();
